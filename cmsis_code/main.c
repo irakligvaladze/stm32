@@ -35,7 +35,7 @@ void main(void)
   {
     GPIOA->ODR ^= (1 << LED_PIN);
     delay_ms(500);
-    printf("[%.3f] Hello, World, It's commited!\r\n", (float)ticks/1000.0f);
+    printf("[%.3f] Hello, World!\r\n", (float)ticks/1000.0f);
 
   }
 }
